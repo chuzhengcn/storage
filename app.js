@@ -31,7 +31,7 @@ if ('development' == app.get('env')) {
     app.use(express.errorHandler());
 }
 
-app.get('/storage/', routes.index);
+app.get('/storage', routes.index);
 app.get('/storage/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
