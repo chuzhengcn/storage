@@ -11,6 +11,8 @@
     "stylus"    : "*",
     "mongodb"   : "*",
     "mongoose"  : "*",
-    "async"     : "*"
+    "async"     : "*",
+    "passport"  : "*",
+    "passport-local" : "*"
   }
 }

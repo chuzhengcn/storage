@@ -1,0 +1,9 @@
+extends layout
+
+append head
+    script(src="/index.js")
+    
+block content
+    form(action="/storage/upload", method="post", enctype="multipart/form-data")
+        input(type="file")
+        button(type="submit") 上传
